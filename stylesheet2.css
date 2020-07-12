@@ -1,3 +1,70 @@
+
+body {
+	background-image: url("smoke.jpg");
+	background-color: black;
+	margin: 0;
+}
+
+.header_p1 {
+	background:black
+	margin-bottom: 10px;
+	width: 100%;
+}
+.header_p1_child {
+	float: none;
+	background: black
+	position: fixed;
+	top: 0px;
+	width: 100%;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: darkgrey;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #805861;}
+ul.topnav li a.active {background-color: #purple;}
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width 600px) {
+	ul.topnav li.right,
+	ul.topnav li {float: none;}
+}
+
+li {
+	float: left;
+	border-right: none;
+}
+
+ul.topnav li a {
+	display: block;
+	color: black;
+	font-family: arial;
+	text-align: center;
+	padding: 10px 16px;
+	text-decoration: none;
+}
+
+ul.topnav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: darkgrey;
+}
+
+ul.topnav li {float: left;}
+
+li a:hover:not(.active) {
+	background-color: #805861;
+}
+
+.active {
+	background-colour: purple;
+=======
 body {
 	background-image: url("smoke.jpg");
 	background-color: black;
